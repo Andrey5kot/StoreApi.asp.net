@@ -43,8 +43,6 @@ namespace StoreAPI.asp.net.Controllers
             }
         }
 
-
-
         
         [HttpPost("addcategory")]
         public async Task<IActionResult> Add([FromBody]CategoryDTO value)
